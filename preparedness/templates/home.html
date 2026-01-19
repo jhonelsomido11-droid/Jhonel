@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<section class="hero">
+    <div class="container text-center">
+        <h1 class="hero-title">Be Prepared. Stay Safe.</h1>
+        <p class="hero-subtitle">
+            A Web-Based Earthquake Preparedness Information System
+            for Filipino families and communities.
+        </p>
+
+        <a href="/facts" class="btn btn-light btn-lg mt-3">
+            Learn How to Prepare
+        </a>
+    </div>
+</section>
+
+<section class="container my-5">
+    <div class="row text-center">
+        <div class="col-md-4">
+            <div class="info-card">
+                <i class="bi bi-info-circle icon"></i>
+                <h4>Earthquake Facts</h4>
+                <p>Learn what earthquakes are and why preparedness matters.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="info-card">
+                <i class="bi bi-list-check icon"></i>
+                <h4>Preparedness Checklist</h4>
+                <p>Track your readiness with an interactive checklist.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="info-card">
+                <i class="bi bi-question-circle icon"></i>
+                <h4>Safety Quiz</h4>
+                <p>Test your knowledge and learn the right actions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

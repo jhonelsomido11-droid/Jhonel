@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<style>
+.safety-img-sm {
+    width: 55px;
+    margin-bottom: 10px;
+}
+
+.safety-card {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+</style>
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Earthquake Safety Guide</h2>
+
+    <div class="row g-4 text-center">
+
+        <div class="col-md-4">
+            <div class="safety-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2910/2910791.png" class="safety-img-sm">
+                <h4>Before an Earthquake</h4>
+                <ol class="text-start">
+                    <li>Prepare an emergency go bag</li>
+                    <li>Secure heavy furniture</li>
+                    <li>Identify safe spots</li>
+                    <li>Create a family plan</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="safety-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2933/2933184.png" class="safety-img-sm">
+                <h4>During an Earthquake</h4>
+                <ol class="text-start">
+                    <li>Drop to the ground</li>
+                    <li>Cover head and neck</li>
+                    <li>Hold on firmly</li>
+                    <li>Stay away from windows</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="safety-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2799/2799286.png" class="safety-img-sm">
+                <h4>After an Earthquake</h4>
+                <ol class="text-start">
+                    <li>Check injuries</li>
+                    <li>Expect aftershocks</li>
+                    <li>Turn off gas if leaking</li>
+                    <li>Follow official advisories</li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
